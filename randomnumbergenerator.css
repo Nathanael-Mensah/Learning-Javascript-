@@ -1,0 +1,11 @@
+body{
+    text-align:center;
+}
+#btn{
+    font-size:2em;
+    border-radius:5px;
+    padding:5px 25px;
+}
+.labels{
+    font-size:1em;
+}

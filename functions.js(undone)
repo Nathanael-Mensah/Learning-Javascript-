@@ -1,0 +1,27 @@
+//function=a section of reusable code.DECLARE THE CODE ONCE USE IT WHENEVER YOU WANT.CALL THE FUNCTION TO EXECUTE
+//THAT CODE
+
+function happy_birthday(username,age){
+    console.log(`Happy birthday ${username}`);
+    console.log(`You are ${age} years old`);
+}
+happy_birthday("Nathanael", 19);
+happy_birthday("Jerry",21);
+happy_birthday("Kingsley",20);
+
+function add(x,y){
+    let result=x+y;
+    return result
+}
+let answer=add(2,3)
+console.log(answer)
+
+//function subtract(a,b){
+//   let minimum=min(a,b);
+//    minimum=Number(minimum);
+//    let maximum=max(a,b);
+//    maximum=Number(maximum);
+//    let result=maximum-minimum;
+//    return result;
+//}
+//console.log(subtract(5,3))

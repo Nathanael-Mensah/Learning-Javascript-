@@ -1,0 +1,22 @@
+body{
+    background-color:hsla(0, 0%, 100%, 0.582);
+    text-align:center;
+    padding:20px;
+    max-width:50%;
+}
+form{
+    border-radius:25px;
+}
+#textarea{
+    width:50%;
+}
+.submitbtn{
+    background-color:hsla(0, 100%, 50%, 0.747);
+    margin-top:10px;
+    border:none;
+}
+.submitbtn:hover{
+    cursor:pointer;
+    background-color:hsla(0, 100%, 50%, 0.575);
+}
+
